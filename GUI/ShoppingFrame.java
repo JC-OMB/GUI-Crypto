@@ -28,6 +28,7 @@ public class ShoppingFrame extends JFrame {
 
         //Wallet
         // set up text field with order total
+        /*
         int walletMoney = 500;
         total = new JTextField("$0.00", 12);
         total.setEditable(false);
@@ -49,12 +50,13 @@ public class ShoppingFrame extends JFrame {
         p = new JPanel();
        add(makeCheckBoxPanel(), BorderLayout.SOUTH);
        add(fundscheck(), BorderLayout.EAST);
-
+        */
 
         // adjust size to just fit
         pack();
     }
 
+    
     // Sets up the "discount" checkbox for the frame
     private JPanel makeCheckBoxPanel() {
         JPanel p = new JPanel();
